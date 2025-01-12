@@ -1,0 +1,37 @@
+# Node.js (React)
+client/node_modules/
+client/.pnp/
+client/.pnp.js
+
+# React build files
+client/build/
+client/dist/
+
+# React temp files
+client/*.tmp
+client/*.temp
+
+# Environment variables
+client/.env
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+# Logs
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+
+
+# IDE settings (common across the repo)
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Global ignores
+*.log
+*.tmp
+*.temp
